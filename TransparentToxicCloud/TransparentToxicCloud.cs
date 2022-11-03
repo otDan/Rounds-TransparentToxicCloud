@@ -1,7 +1,6 @@
 ﻿using BepInEx;
 using HarmonyLib;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace TransparentToxicCloud
 {
@@ -14,15 +13,16 @@ namespace TransparentToxicCloud
     {
         private const string ModId = "ot.dan.rounds.transparenttoxiccloud";
         private const string ModName = "Transparent Toxic Cloud";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
         public const string ModInitials = "TTC";
         private const string CompatibilityModName = "TransparentToxicCloud";
         public static TransparentToxicCloud Instance { get; private set; }
 
         private void Awake()
         {
+            UnboundLib.Unbound.RegisterClientSideMod(ModId);
             Instance = this;
-            
+
             var harmony = new Harmony(ModId);
             harmony.PatchAll();
         }

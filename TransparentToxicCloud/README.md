@@ -8,5 +8,7 @@
 </p>
 
 ## Versions
+- 1.0.1
+  - Change to client side
 - 1.0.0
   - No more screens covered by toxic clouds

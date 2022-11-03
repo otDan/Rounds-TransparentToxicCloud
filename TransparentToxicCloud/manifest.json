@@ -1,6 +1,6 @@
 {
   "name": "TransparentToxicCloud",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/otDan/TransparentToxicCloud",
   "description": "Less annnoying toxic clouds by making them have transparency",
   "dependencies": [
