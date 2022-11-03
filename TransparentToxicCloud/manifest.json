@@ -1,0 +1,11 @@
+{
+  "name": "TransparentToxicCloud",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/otDan/TransparentToxicCloud",
+  "description": "Less annnoying toxic clouds by making them have transparency",
+  "dependencies": [
+    "BepInEx-BepInExPack_ROUNDS-5.4.1900",
+    "willis81808-UnboundLib-3.1.2",
+    "willis81808-MMHook-1.0.0"
+  ]
+}
